@@ -23,7 +23,7 @@ public class StaticQueue<T> {
 
     public T remove(){
         if(isEmpty()){
-            throw new IllegalStateException("Pilha Vazia");
+            throw new IllegalStateException("Fila Vazia");
         }
         T dataPop = this.data[this.base];
         this.data[this.base] = null;
