@@ -11,8 +11,6 @@ public class StaticQueue<T> {
         this.data = (T[]) new Object[size];
     }
 
-    
-
     public void add(T data) {
         if (isFull()) {
             return;
