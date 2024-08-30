@@ -3,15 +3,15 @@ package linkedList;
 public class DNode {
 
     protected String element;
-    protected DNode next, prev;  /*Ponteiro para o pr�ximo n� e para o n� anterior*/
+    protected DNode next, prev;  /*Ponteiro para o próximo nó e para o nó anterior*/
 
-    /*Construtor que cria um n� com os campos fornecidos */
+    /*Construtor que cria um nó com os campos fornecidos */
     public DNode(String e, DNode p, DNode n){
         element = e;
         prev = p;
         next = n;
     }
-    /*Retorna o elemento deste n�*/
+    /*Retorna o elemento deste nó*/
     public String getElement(){
         return element;
     }
@@ -23,7 +23,7 @@ public class DNode {
     public DNode getNext(){
         return next;
     }
-    /*Atribui o elemento deste n�*/
+    /*Atribui o elemento deste nó*/
     public void setElement(String newElement){
         element = newElement;
     }
